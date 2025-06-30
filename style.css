@@ -1,0 +1,79 @@
+body {
+        font-family: 'Arial', sans-serif;
+        line-height: 1.6;
+        margin: 2rem auto;
+        background: #e8ba00;
+        color: #222;
+}
+h1, h2 {
+    color: #0f2a71;
+}
+section {
+    background: #fff;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px #0f2a71;
+}
+.fun {
+    background: #f7f5de;
+    box-shadow: 0 2px 8px #e8ba00
+}
+header {
+    display: block;
+    width: 100%;          /* largura total */
+    height: 300px;        /* altura fixa que você quer para o header */
+    overflow: hidden;  
+}
+nav {
+    background: #0f2a71;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    width: 100%;          /* largura total do nav */
+    overflow: hidden;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 1.5rem;
+}
+nav li {
+    display: inline;
+}
+nav a {
+    color: #e8ba00;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background 0.2s;
+}
+nav a:hover,
+nav a:focus {
+    background: #e8ba00;
+    color: #0f2a71;
+}
+
+header img {
+    width: 100%;          /* largura total da imagem */
+    height: 100%;         /* altura igual ao container */              
+    object-fit: cover;    /* corta a imagem para preencher o container sem distorcer */
+    object-position: center; /* centraliza a parte visível da imagem */
+    transform: scale(0.9);
+    display: block;       /* remove espaçamento embaixo da imagem */
+    border-radius: 1em;
+}
+.container {
+    max-width: 1300px;    /* largura máxima do container */
+    margin: 0 auto;       /* centraliza o container na página */
+    padding: 0 1rem;      /* espaçamento interno */
+}
+.main-image{
+    width: 500px;
+}
+.hardware-image{
+    max-width: 500px;
+}
